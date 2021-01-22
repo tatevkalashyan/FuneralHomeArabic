@@ -1,0 +1,23 @@
+@media screen and (min-width: 1200px){
+    .container-fluid {
+        max-width: 1920px;
+    }
+    .container-1360 {
+        max-width: 1390px;
+    }
+}
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 632px){
+    .section1 .form-control {
+        border-right: 0;
+    }
+    .form-bg{
+        flex-direction: column;
+    }
+
+}

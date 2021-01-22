@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>add Memorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl-carousel-min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header class="header-bg">
+    <div class="container container-1360">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand mr-2 mr-xl-5 header-logo" href="index.html" >
+                <img src="images/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ml-auto">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mx-2 active">
+                            <a class="nav-link" href="index.html">الصفحة الرئيسية <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="findFuneralHome.html">البحث عن دور الجنازة</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="blog.html">مدونة</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav align-items-lg-center pl-2 pl-lg-0 flex-wrap">
+                        <li class="nav-item mr-2 mr-xl-4">
+                            <a href="login.html" class="open-login btn-red" type="button">تسجيل الدخول</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<main class="d-flex justify-content-center align-items-center" style="min-height: calc(100vh - 71px);">
+    <div class="container mt-5">
+        <form action="#" class="log-reg-form">
+            <div class="step ">
+                <div class="row">
+                    <div class="col-12 offset-md-3 col-md-6 text-right">
+                        <h3 class="title-h3 text-center">أضف ذكرى</h3>
+                        <div class="fs-24-rob text-center mb-4">الخطوة 1<span class="color-red">(الموقع التذكاري)</span> / 2</div>
+                        <div class="text-center fs-24-rob my-4">1. اختر مقبرة</div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="اسم المقبرة">
+                        </div>
+                        <div class="form-group">
+                            <select dir="rtl" class="form-control" id="Select1">
+                                <option selected disabled>موقع المقبرة (المدينة أو المقاطعة أو الولاية أو البلد)</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <button class="btn-red ml-auto mt-5 go-step2">استمر</button>
+                        <div class="text-right mt-4">
+                            <div class="form-group form-check">
+                                <label class="form-check-label pr-4" for="exampleCheck1">لم تدفن في مقبرة؟</label>
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step d-none">
+                <h3 class="title-h3 text-center">أضف ذكرى</h3>
+                <div class="fs-24-rob text-center mb-4">الخطوة 1 (الموقع التذكاري) / <span class="color-red">2</span></div>
+                <div class="text-center fs-24-rob my-4">2. أدخل تفاصيل الذكرى</div>
+                <div class="row mb-4">
+                    <div class="offset-2 col-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="MiddleName" aria-describedby="name" placeholder="الاسم قبل الزواج">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="MaidenName" aria-describedby="name" placeholder="الاسم الوسطى">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="FirstName" aria-describedby="name" placeholder="الاسم الاول">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="Nickname" aria-describedby="name" placeholder="كنية">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="LastName" aria-describedby="name" placeholder="الكنية">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="offset-2 col-8">
+                        <div class="d-flex align-items-center mb-3" dir="rtl">
+                            <div class="col-1">  جنس</div>
+                            <div class="form-check" style="margin-right: 40px">
+                                <input class="" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    الذكر
+                                </label>
+                            </div>
+                            <div class="form-check" style="margin-right: 40px">
+                                <input class="" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    أنثى
+                                </label>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3" dir="rtl">
+                            <div class="col-1">ولادة</div>
+                            <div class="form-group">
+                                <div class="date-picker form-inline">
+                                    <input type="date" class="date-picker--date d-none" min="1900-12-31" max="2017-12-31" />
+                                    <div class="form-group">
+                                        <input id="Birth-day" class="date-picker--day date-input" type="number" min="1" max="31" placeholder="يوم" maxlength="2" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="Birth-month" class="date-picker--month date-input" type="number" min="1" max="12" placeholder="شهر" maxlength="2" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="Birth-year" class="date-picker--year date-input" type="number" placeholder="سنة" maxlength="4" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="Birth-location" class="date-input w-200" type="text" placeholder="الموقع" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3" dir="rtl">
+                            <div class="col-1">الموت</div>
+                            <div class="form-group">
+                                <div class="date-picker form-inline">
+                                    <input type="date" class="date-picker--date d-none" min="1900-12-31" max="2017-12-31" />
+                                    <div class="form-group">
+                                        <input id="Death-day" class="date-picker--day date-input" type="number" min="1" max="31" placeholder="يوم" maxlength="2" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="Death-month" class="date-picker--month date-input" type="number" min="1" max="12" placeholder="شهر" maxlength="2" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="Death-year" class="date-picker--year date-input" type="number" placeholder="سنة" maxlength="4" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="Death-location" class="date-input w-200" type="text" placeholder="الموقع" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="offset-2 col-8">
+                        <textarea name="textarea"  style="resize: none"  class="form-control text-right" rows="6" placeholder="المعلومات الحيوية"></textarea>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="offset-2 col-8">
+                        <h4 class="text-right fs-16-rob">معلومات الدفن</h4>
+                        <div class="form-group">
+                            <input type="text"  class="form-control" placeholder="عدد مؤامرة">
+                        </div>
+                        <div class="form-group d-flex" dir="rtl">
+                            <input type="text"  class="form-control ml-4" placeholder="تنسيق الدفن (خط العرض)">
+                            <input type="text"  class="form-control ml-4" placeholder="تنسيق الدفن (خط العرض)">
+                            <button type="button" class="btn-red ml-4 w-50">دبوس على الخريطة</button>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="text"  style="resize: none"  class="form-control text-right"  rows="4" placeholder="أدخل النقش هنا. قم فقط بتضمين ما هو على علامة القبر. (اختياري)"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="text"  style="resize: none"  class="form-control text-right"  rows="4" placeholder="ملاحظة قصيرة عن حالة القبر. (اختياري)"></textarea>
+                        </div>
+                        <button class="btn-red my-3 ml-auto">أضف النصب التذكاري</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+    $('.go-step2').click(function () {
+        $(".step").toggleClass("d-none");
+    })
+    $( document ).ready(function() {
+        $('.date-picker').on('keydown', 'input[type="number"]', function (e) {
+            -1 !== $.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) || (/65|67|86|88/.test(e.keyCode) && (e.ctrlKey === true || e.metaKey === true)) && (!0 === e.ctrlKey || !0 === e.metaKey) || 35 <= e.keyCode && 40 >= e.keyCode || (e.shiftKey || 48 > e.keyCode || 57 < e.keyCode) && (96 > e.keyCode || 105 < e.keyCode) && e.preventDefault()
+        });
+        $('.date-picker').on('change', function () {
+            var currentInput = $(this);
+            var day = currentInput.find('.date-picker--day').val();
+            var month = currentInput.find('.date-picker--month').val();
+            var year = currentInput.find('.date-picker--year').val();
+            var invisibleDateInput = currentInput.find('.date-picker--date');
+            var invisibleDateInputMin = invisibleDateInput.attr('min');
+            var invisibleDateInputMax = invisibleDateInput.attr('max');
+
+            // correct format for date input
+            if (month.length < 2) {
+                month = "0" + month
+            };
+            if (day.length < 2) {
+                day = "0" + day;
+            }
+
+            ////Needed if no min or max
+            switch (year.length) {
+                case 1:
+                    year = "000" + year;
+                    break;
+                case 2:
+                    year = "00" + year;
+                    break;
+                case 3:
+                    year = "0" + year;
+                    break;
+            }
+
+            var theDate = year + "-" + month + "-" + day;
+
+            invisibleDateInput.attr('value', theDate);
+
+            if (invisibleDateInput.attr('value') !== theDate) {
+                if (!day.length === 0 && !month.length === 0 && !year.length === 0) {
+                    currentInput.closest('.form-group').addClass('error');
+                }
+                currentInput.closest('.form-group').addClass('error');
+            }
+            else {
+                currentInput.closest('.form-group').removeClass('error');
+                if (typeof invisibleDateInputMin !== typeof undefined && invisibleDateInputMin !== false) {
+                    if (invisibleDateInputMin > theDate) {
+                        currentInput.closest('.form-group').addClass('error');
+                    }
+                }
+
+                if (typeof invisibleDateInputMax !== typeof undefined && invisibleDateInputMax !== false) {
+                    if (invisibleDateInputMax < theDate) {
+                        currentInput.closest('.form-group').addClass('error');
+                    }
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

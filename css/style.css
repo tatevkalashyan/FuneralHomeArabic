@@ -1,0 +1,300 @@
+@font-face {
+    font-family: Cookie-Regular;
+    src: url("../fonts/Cookie-Regular.ttf");
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    box-shadow: 0 0 6px #00000029;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #9D4B4C;
+}
+.section1 {
+    background-image: url("../images/quino-al-FVOkPmiCzAM-unsplash@2x.png");
+    background-size: cover;
+    padding: 8.13%;
+}
+.find-funeral-home-page .section1 {
+    background-image: url("../images/anthony-delanoix-urUdKCxsTUI-unsplash@2x.png");
+    background-size: cover;
+    padding: 8.13%;
+}
+.funeral-home-single-page .section1 {
+    background-image: url("../images/slidell_funeral_home@2x.png");
+    background-size: cover;
+    padding: 16%;
+}
+
+.section1 .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font: 300 16px/19px Roboto;
+    color: #AAAAAA;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 0;
+    border-right: 0.5px solid;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align: right;
+    outline: none;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.section1 .form-group {
+    flex: 1;
+    margin: 0 0 0 auto;
+}
+.form-bg {
+    background-color: #ffffff;
+    border-radius: 10px;
+    min-height: 45px;
+    padding: 0 10px;
+}
+.main-title {
+    font:  64px/70px "Cookie-Regular", sans-serif;
+    color: #FFFFFF;
+}
+.small-info-text {
+    font: 400 16px/19px Roboto;
+    letter-spacing: 0;
+    color: #F4EDE9;
+}
+.btn-cream {
+    background: #EADBCF 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    height: 45px;
+    padding: 0 10px;
+    text-align: center;
+    color: #9D4B4C;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    border: 0;
+}
+.btn-cream:hover,.btn-cream:hover {
+    background: #9D4B4C 0 0 no-repeat padding-box;
+    color: #EADBCF;
+    outline: none;
+}
+
+.btn-gray {
+    background-color:  #AAAAAA;
+    border-radius: 10px;
+    height: 45px;
+    padding: 0 16px;
+    text-align: center;
+    color: #EADBCF;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    border: 0;
+    width: fit-content;
+}
+.btn-red {
+    background: #9D4B4C 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    height: 45px;
+    padding: 0 16px;
+    text-align: center;
+    color: #EADBCF;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    border: 0;
+    width: fit-content;
+}
+.btn-red:hover, .btn-red:focus {
+    background: #EADBCF 0 0 no-repeat padding-box;
+    color: #9D4B4C;
+    outline: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.section2 {
+    background-color: #EADBCF;
+    padding: 4%;
+}
+.title-h4 {
+    font: 400 24px/27px "Cookie-Regular";
+    color: #9D4B4C;
+}
+.section3, .section4 {
+    padding: 4% 0;
+}
+.title-h3 {
+    font: normal normal normal 56px/60px "Cookie-Regular";
+    color: #9D4B4C;
+}
+.section4 .img-title {
+    font: normal normal normal 40px/50px "Cookie-Regular";
+    color: #9D4B4C;
+    padding: 0 16px;
+}
+.find-funeral-home-page .section4 .img-title {
+    font: normal normal normal 24px/26px "Cookie-Regular";
+    color: #9D4B4C;
+}
+.section4 .card {
+   border: 0;
+}
+.find-funeral-home-page .section4 .card {
+    border: 0;
+    font: normal normal normal 12px/24px Roboto;
+    color: #404040;
+    background: #F8F8F8 0 0 no-repeat padding-box;
+    margin-bottom: 24px;
+}
+.find-funeral-home-page .section4 .card-body a {
+    font: normal normal normal 12px/24px Roboto;
+    color: #404040;
+}
+.section4 .card .img-area {
+   height: 310px;
+}
+.find-funeral-home-page .section4 .card .img-area {
+    max-height: 190px;
+    height: 100%;
+    overflow: hidden;
+}
+.find-funeral-home-page .section4 .card .img-area img,
+.section4 .card .img-area img {
+   width: 100%;
+}
+.footer {
+    background: #404040 0 0 no-repeat padding-box;
+    padding: 5% 0;
+}
+.log-reg-form .fab:before,
+.log-reg-form .fas:before {
+    color: #AAAAAA;
+    font-size: 30px;
+}
+.date-input {
+    width: 95px;
+    height: 45px;
+    max-width: fit-content;
+    text-align: center;
+    margin-right: 40px;
+    background: #F8F8F8 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    border: 0;
+    color: #AAAAAA;
+}
+.date-input.w-200 {
+   width: 200px;
+}
+.date-input:focus {
+    outline: none;
+}
+.log-reg-form .form-control {
+    background: #F8F8F8 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    border: 0;
+    text-align: right;
+    color: #AAAAAA;
+}
+.log-reg-form>a {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.star:before {
+    content: '\1F7CA';
+    font-size: 28px;
+    color: #ffcc00;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #404040;
+    background-color: #fff;
+    border: 0;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #9d4b4c;
+    border-color: #9d4b4c;
+}
+.lists ul {
+    list-style: none;
+}
+.lists ul li {
+    direction: rtl;
+}
+.lists ul li::before {
+    content: "\2022";
+    color: #9d4b4c;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 10px;
+    margin: 0 0 0 10px;
+}
+.color-red {
+    color: #9d4b4c;
+}
+.color-gray {
+    color: #AAAAAA;
+}
+.fs-32-cookie {
+    font: normal normal normal 32px/24px "Cookie-Regular";
+}
+.fs-32-rob {
+    font: normal normal normal 32px/38px "Roboto";
+}
+.fs-40-rob {
+    font: normal normal normal 40px/45px "Roboto";
+    color: #404040;
+}
+.fs-40-cookie {
+    font: normal normal normal 40px/45px "Cookie-Regular";
+}
+.fs-16-rob {
+    font: normal normal bold 16px/24px "Roboto";
+}
+.fs-24-rob {
+    font: normal normal bold 24px/29px "Roboto";
+}
+.fa-pen:before{
+    font-size: 16px!important;
+    color: #000!important;
+}
+.alert-dismissible .close {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    color: inherit;
+}
+.alert-dismissible {
+    padding: .75rem 1.25rem;
+    background-color: #F8F8F8;
+}
+.abs {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
