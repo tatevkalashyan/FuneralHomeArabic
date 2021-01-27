@@ -89,6 +89,22 @@ header {
     color: #EADBCF;
     outline: none;
 }
+.btn-red-text {
+    font: normal normal bold 20px/17px "Roboto";
+    color: #9D4B4C;
+    border: 0;
+    outline: none;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.btn-gray-text {
+    font: normal normal bold 14px/24px "Roboto";
+    color: #4D4D4D;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
 
 .btn-gray {
     background-color:  #AAAAAA;
@@ -297,4 +313,36 @@ a:hover {
     position: absolute;
     top: 15px;
     left: 20px;
+}
+.blog-content .card-img-overlay {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    text-align: right;
+}
+.blog-content .card-img-overlay .card-title {
+    font: normal normal bold 24px/26px "Roboto";
+    color: #FFFFFF;
+    text-align: right;
+}
+.blog-content .card-img-overlay .card-text {
+    font: normal normal normal 16px/19px "Roboto";
+    color: #FFFFFF;
+    text-align: right;
+}
+.post-content .img-area {
+    height: 276px;
+}
+.post-content .img-area img {
+    height: 100%;
+}
+.post-content .card-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0 3px 6px #00000029;
 }
