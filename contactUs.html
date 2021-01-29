@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Add New Cemetery</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
           integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -51,56 +51,48 @@
 </header>
 <main class="d-flex justify-content-center align-items-center" style="min-height: calc(100vh - 71px);">
     <div class="container">
-        <form action="#" class="log-reg-form">
-            <div class="row mb-4">
-                <h3 class="title-h3 text-right col-10 mb-5">أو أضف مقبرة جديدة</h3>
-                <div class="offset-2 col-4">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="MiddleName" aria-describedby="name" placeholder="اسم المقبرة">
-                    </div>
-                    <div class="form-group">
-                        <select dir="rtl" class="form-control" id="Select1">
-                            <option selected disabled>موقعك</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="هاتف">
-                    </div>
+        <div class="row">
+            <form action="#" class="col-12 offset-md-3 col-md-6 text-right log-reg-form">
+                <h3 class="title-h3">اتصل بنا</h3>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="اسم">
                 </div>
-                <div class="col-4">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="FirstName" aria-describedby="name" placeholder="موقع الكتروني">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="Nickname" aria-describedby="name" placeholder="العنوان (شارع)">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="LastName" aria-describedby="name" placeholder="الرمز البريدي">
-                    </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="surName" aria-describedby="surName" placeholder="لقب">
                 </div>
-            </div>
-            <div class="row mb-4">
-                <div class="offset-2 col-8">
-                    <div class="form-group d-flex" dir="rtl">
-                        <input type="text"  class="form-control ml-4" placeholder="تنسيق الدفن (خط العرض)">
-                        <input type="text"  class="form-control ml-4" placeholder="تنسيق الدفن (خط العرض)">
-                        <button type="button" class="btn-red ml-4 w-50">دبوس على الخريطة</button>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="text"  style="resize: none"  class="form-control text-right"  rows="4" placeholder="أدخل النقش هنا. قم فقط بتضمين ما هو على علامة القبر. (اختياري)"></textarea>
-                    </div>
-                    <div class="d-flex justify-content-end align-items-center">
-                        <button class="btn-red mr-4">حفظ</button>
-                        <button class="btn-gray">إلغاء</button>
-                    </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="phone" aria-describedby="phone" placeholder="رقم الهاتف">
                 </div>
-            </div>
-        </form>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="البريد الإلكتروني">
+                </div>
+                <div class="form-group">
+                    <textarea name="textarea" id="" rows="4" class="form-control" placeholder="رسالة"></textarea>
+                </div>
+                <button type="submit" class="btn-red ml-auto mt-5">اتصل الآن</button>
+                <div class="text-right mt-5">
+                    <h4 class="mx-auto mb-3">أو تواصل مع وسائل التواصل الاجتماعي</h4>
+                    <ul class="list-unstyled p-0 d-flex justify-content-end">
+                        <li class="mx-3"><a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a></li>
+                        <li class="mx-3"><a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a></li>
+                        <li class="mx-3"><a href="#">
+                            <i class="fab fa-instagram-square"></i>
+                        </a></li>
+                        <li class="mx-3"><a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a></li>
+                        <li class="mx-3"><a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a></li>
+                    </ul>
+
+                </div>
+            </form>
+        </div>
     </div>
 </main>
 

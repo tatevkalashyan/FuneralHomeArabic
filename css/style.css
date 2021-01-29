@@ -164,6 +164,7 @@ a:hover {
     color: #9D4B4C;
     padding: 0 16px;
 }
+.userProfilePage .img-title,
 .find-funeral-home-page .section4 .img-title {
     font: normal normal normal 24px/26px "Cookie-Regular";
     color: #9D4B4C;
@@ -178,6 +179,7 @@ a:hover {
     background: #F8F8F8 0 0 no-repeat padding-box;
     margin-bottom: 24px;
 }
+.userProfilePage  .card-body a ,
 .find-funeral-home-page .section4 .card-body a {
     font: normal normal normal 12px/24px Roboto;
     color: #404040;
@@ -313,6 +315,7 @@ a:hover {
     position: absolute;
     top: 15px;
     left: 20px;
+    z-index: 2;
 }
 .blog-content .card-img-overlay {
     position: absolute;
@@ -346,3 +349,109 @@ a:hover {
     overflow: hidden;
     box-shadow: 0 3px 6px #00000029;
 }
+/*checkbox*/
+
+.container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.container-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 2px solid;
+}
+.container-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.container-checkbox input:checked ~ .checkmark {
+    background-color: #9d4b4c;
+    border: 0;
+}
+.container-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+.container-checkbox .checkmark:after {
+    left: 9px;
+    top: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*end checkbox*/
+
+.add-new-fun-home-page .img-area {
+    width: 200px;
+    height: 140px;
+}
+
+
+
+/*start image upload*/
+
+.avatar-upload {
+    position: relative;
+    max-width: 205px;
+}
+.avatar-upload .avatar-edit {
+    width: 200px;
+    height: 140px;
+}
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+.avatar-upload .avatar-edit input + label {
+    display: inline-block;
+    width: 200px;
+    height: 140px;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all .2s ease-in-out;
+    background-color: #eee;
+}
+.avatar-upload .avatar-edit input + label :hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+.avatar-preview {
+    width: 200px;
+    height: 140px;
+    position: relative;
+}
+.avatar-preview > div {
+    width: 200px;
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*end image upload*/
